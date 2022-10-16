@@ -72,6 +72,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--black-color);
   margin-right: 93px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header-logo-half {
@@ -84,6 +86,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .current {
@@ -98,6 +102,11 @@ img {
   display: flex;
   margin-left: auto;
   gap: 50px;
+}
+.header-mail,
+.header-phone {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .header-container {
@@ -214,11 +223,16 @@ img {
 .team-list {
   display: flex;
   gap: 30px;
+  padding-bottom: 94px;
 }
 
+.name-position {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 .team-member {
   background-color: var(--background);
-  padding-bottom: 94px;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -242,7 +256,6 @@ img {
   color: var(--secondary-text-color);
   background-color: var(--background);
   margin-bottom: 10px;
-  margin-top: 30px;
 }
 .team-member-position {
   font-size: 16px;
