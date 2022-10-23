@@ -70,8 +70,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--black-color);
   margin-right: 93px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  /* padding-top: 30px;
+  padding-bottom: 30px; */
 }
 
 .header-logo-half {
@@ -357,8 +357,10 @@ img {
   border-radius: 4px;
 }
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  /* margin-top: 94px;
+  margin-bottom: 94px; */
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-btn:hover,
